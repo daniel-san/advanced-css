@@ -4,6 +4,7 @@
   "description": "Landing page for the natours project",
   "main": "index.js",
   "scripts": {
+    "live-reload": "live-server --no-browser",
     "compile:sass": "node-sass sass/main.scss css/style.css",
     "watch": "node-sass sass/main.scss css/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,8 @@
   "author": "Daniel Lucas",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.1",
     "node-sass": "^4.11.0"
-  }
+  },
+  "dependencies": {}
 }
